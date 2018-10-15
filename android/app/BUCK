@@ -45,12 +45,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.coreelation",
+    package = "com.jaylin.coreelation",
 )
 
 android_resource(
     name = "res",
-    package = "com.coreelation",
+    package = "com.jaylin.coreelation",
     res = "src/main/res",
 )
 
